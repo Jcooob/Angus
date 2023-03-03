@@ -1,0 +1,51 @@
+.bodyDetail {
+  background-color: #101010;
+  max-width: auto;
+  background-image: linear-gradient(to bottom, #101010, #1C1C1E);
+  height: 100vh;
+}
+
+.garage {
+  position: relative;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh; 
+  margin: auto;
+  max-height: 900px;
+}
+
+.intro {
+  position: relative;
+  font-size: 5vw;
+  margin-top: 5vh;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #f9f5e1;
+  background-color:#201c1c;
+  padding: 50px;
+  font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+  margin: auto auto;
+  max-width: 1800px;
+  min-height: 700px;
+}
+
+.tank {
+  position: absolute; 
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 200%;     
+}
+
+.gradient {
+  width: 100%;
+  min-height: auto;
+  height: 150px;
+  max-height: 150px;
+  max-width: 1900px;
+  background: linear-gradient(to top, #1C1C1E, #101010);
+  width: 100vw; 
+  height: 100vh; 
+  margin: auto;    
+}

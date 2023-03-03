@@ -1,0 +1,56 @@
+.bodyLanding {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #202020, #302f2f);
+    
+}
+
+.bodyLanding > h1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    text-shadow: -10px 10px #000000;
+}
+
+.landingGif {
+    position: absolute;
+    max-height: 30%;
+    max-width: 30%;
+    top: 30%;
+}
+
+.enter-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #ff0000, #412121);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: none rgb(58, 48, 48) 5px;
+    padding: 20px 30px;
+    box-shadow: -12px 15px #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.enter-button:hover {
+    font-size: 90px;
+    cursor: pointer;
+    font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+    background-image: linear-gradient(to bottom, #860404, #3a0000);
+    font-weight: bold;
+    padding: 20px 30px;
+    box-shadow: -5px 5px #000000; 
+}

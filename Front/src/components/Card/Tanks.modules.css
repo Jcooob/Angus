@@ -1,0 +1,109 @@
+.bodyTanks{
+  background-color: rgb(58, 58, 58) ;
+  padding-bottom: 100px;
+  background-image: linear-gradient(to bottom right, #222222, #a1a0a0);
+}
+
+
+.carrousel {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: auto;
+  margin-top: 100px;
+  padding-inline: 50px;
+  padding-block: 100px;
+  top: auto;
+  max-width: 1500px;
+  width: 100%;
+  height: 80%;
+  background-color: #494646;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tank {
+  display: flex;
+}
+
+.search-filter{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.filters {
+    align-items: center;
+    gap: 20px;
+    max-width: 1500px;
+    padding-inline: 50px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(189, 189, 189, 0.4);
+    border-radius: 50px;
+    
+}
+
+.reset-all-filters {
+  display: flex;
+  margin: auto;
+  
+}
+
+.bodyTanks > .filters > .nation-filter > button.active,
+.bodyTanks > .filters > .type-filter > button.active,
+.bodyTanks > .filters > .tier-filter > button.active{
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;	
+  color: #000000;
+  background-color: #c56c48;
+  border: none;
+  border: solid black;
+  size: 120%;
+}
+
+.bodyTanks > .filters > .nation-filter > button,
+.bodyTanks > .filters > .type-filter > button,
+.bodyTanks > .filters > .tier-filter > button {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;	
+  color: #000000;
+  background-color: #aaa08d;
+  border: none;
+  box-shadow: 5px 10px #000000;
+  border: solid black;
+}
+
+
+.bodyTanks > .filters > .nation-filter > button:hover,
+.bodyTanks > .filters > .type-filter > button:hover,
+.bodyTanks > .filters > .tier-filter > button:hover {
+  background-color: #fdbf77;
+  transition: all 0.25s ease-in-out;
+}
+
+.bodyTanks > h3{
+  margin-top: auto;
+  padding: 1em;
+  font-size: 50px;
+}
+
+.bodyTanks h4 {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

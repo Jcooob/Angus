@@ -1,0 +1,3 @@
+export const GET_ALL_TANKS = "GET_ALL_TANKS";
+export const GET_TANK_DETAILS = "GET_TANK_DETAILS";
+export const CLEAN_TANK_DETAILS = "CLEAN_TANK_DETAILS";
